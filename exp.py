@@ -17,10 +17,11 @@
 import pandas as pd
 
 # %%
-FILENAME = '../strategies.csv'
+FILE_STRATEGY = '../strategies.csv'
+FILE_UPGRADE = '../upgrades.csv'
 
 # %%
-df = pd.read_csv(FILENAME)
+df = pd.read_csv(FILE_STRATEGY)
 
 # %%
 df.head()
@@ -34,15 +35,56 @@ def foo(x):
         return 0
 
 new_cols = [df.columns[0]]
-df_bool = df.copy()
+strategies = df.copy()
 for i, col in enumerate(df.columns[1:]):
     troop_name = [x for x in df.loc[:, col].unique() if type(x) is str][0]
-    df_bool.loc[:, col] = df.loc[:, col].map(lambda x: x is troop_name)
+    strategies.loc[:, col] = df.loc[:, col].map(lambda x: x is troop_name)
     new_cols.append(troop_name)
 
-df_bool.columns = pd.Index(new_cols)
+strategies.columns = pd.Index(new_cols)
 
 # %%
-df_bool.head()
+strategies.head()
+
+# %% [markdown]
+# ## Include upgrade levels and lengths
+
+# %%
+df = pd.read_csv(FILE_UPGRADE)
+
+# %%
+df.head()
+
+
+# %%
+def add_time(x):
+    if type(x) is str:
+        if '/' in x:
+            return sum(map(float, x.split('/')))
+        
+    return x
+
+def max_level(x):
+    if type(x) is str:
+        if '/' in x:
+            return max(map(float, x.split('/')))
+        
+    return x
+
+upgrade = df.copy()
+
+upgrade.loc[:, 'Troop'] = df['Troop'].map(lambda x: x.strip())
+upgrade.loc[:, 'Category'] = df['Category'].map(lambda x: x.strip())
+
+for col in upgrade.columns[2:]:
+    upgrade.loc[upgrade['Category'] == 'Time', col] = upgrade[upgrade['Category'] == 'Time'][col].map(add_time)
+    upgrade.loc[upgrade['Category'] == 'Level', col] = upgrade[upgrade['Category'] == 'Level'][col].map(max_level)
+    upgrade.loc[upgrade[col].isna(), col] = ' '
+
+# %%
+upgrade['Category'][1]
+
+# %%
+upgrade.head(60)
 
 # %%

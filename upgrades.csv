@@ -1,18 +1,18 @@
 Troop,Category,TH 3,TH 4,TH 5,TH 6,TH 7,TH 8,TH 9,TH 10,TH 11,TH 12,TH 13
 Barbarian ,Level ,2, ,3, ,4,5,6,7,8,9,
-Barbarian ,Time ,6/24, ,1, ,2,3,4,5,8,12,
+Barbarian ,Time ,0.25, ,1, ,2,3,4,5,8,12,
 Archer ,Level ,2, ,3, ,4,5,6,7,8, ,
-Archer ,Time ,12/24 , ,1, ,2,3,4,5,8, ,
+Archer ,Time ,0.5, ,1, ,2,3,4,5,8, ,
 Giant ,Level , ,2, ,3,4,5,6,7,8,9,
-Giant ,Time , ,12/24 , ,1.5,2,3,5,6,10,14,
+Giant ,Time , ,0.5, ,1.5,2,3,5,6,10,14,
 Goblin ,Level ,2, ,3, ,4,5,6,7, ,8,
-Goblin ,Time ,12/24 , ,1.5, ,2,3,5,7, ,12,
+Goblin ,Time ,0.5, ,1.5, ,2,3,5,7, ,12,
 Wall Breaker ,Level , ,2, ,3,4,5, ,6,7,8,9
-Wall Breaker ,Time , ,12/24 , ,1.5,2,3, ,5,8,14,15
+Wall Breaker ,Time , ,0.5, ,1.5,2,3, ,5,8,14,15
 Balloon ,Level , ,2, ,3,4,5,6, ,7,8,9
-Balloon ,Time , ,12/24 , ,1.5,2,3,5, ,10,14,16
+Balloon ,Time , ,0.5, ,1.5,2,3,5, ,10,14,16
 Wizard,Level , , ,2,3,4,5,6,7,8,9,
-Wizard,Time , , ,12/24 ,1.5,2,3,5,6,10,14,
+Wizard,Time , , ,0.5,1.5,2,3,5,6,10,14,
 Healer ,Level , , , , ,2,3,4, ,5, ,6
 Healer ,Time , , , , ,2,3,5, ,14, ,15
 Dragon ,Level , , , , ,2,3,4,5,6,7,8
