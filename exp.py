@@ -41,6 +41,12 @@ for i, col in enumerate(df.columns[1:]):
     strategies.loc[:, col] = df.loc[:, col].map(lambda x: x is troop_name)
     new_cols.append(troop_name)
 
+for i, col in enumerate(new_cols):
+    if col in ['Earthquake', 'Haste', 'Poison']:
+        new_cols[i] = col + " Spell"
+    if col == 'Balloons':
+        new_cols[i] = col[:-1]
+        
 strategies.columns = pd.Index(new_cols)
 
 # %%
@@ -82,9 +88,15 @@ for col in upgrade.columns[2:]:
     upgrade.loc[upgrade[col].isna(), col] = ' '
 
 # %%
-upgrade['Category'][1]
-
-# %%
 upgrade.head(60)
 
+# %% [markdown]
+# ## Lets enumerate all combinations of choices and add the total time
+
 # %%
+for th 8:
+    for th 9:
+        for th 10:
+            for th 11:
+                for th 12:
+                    for th 13:
