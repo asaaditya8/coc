@@ -23,9 +23,6 @@ FILE_UPGRADE = '../upgrades.csv'
 # %%
 df = pd.read_csv(FILE_STRATEGY)
 
-# %%
-df.head()
-
 
 # %%
 def foo(x):
@@ -88,15 +85,36 @@ for col in upgrade.columns[2:]:
     upgrade.loc[upgrade[col].isna(), col] = ' '
 
 # %%
-upgrade.head(60)
+upgrade.head(70)
 
 # %% [markdown]
 # ## Lets enumerate all combinations of choices and add the total time
 
 # %%
-for th 8:
-    for th 9:
-        for th 10:
-            for th 11:
-                for th 12:
-                    for th 13:
+strategies.loc[strategies['TH'] == 9]
+
+# %%
+time = {}
+
+for th_level in range(8, 14):
+    plans = strategies.loc[strategies['TH'] == th_level].iloc[:, 1:]
+    for troop in plans.columns:
+        def get_upgrade_time(x):
+            if x:
+                y = upgrade[upgrade['Troop'] == troop][upgrade['Category'] == 'Time']['TH ' + str(th_level)].values[0]
+                try:
+                    y = float(y)
+                except:
+                    y = 0.0
+                return y
+        
+            return 0
+
+        plans.loc[:, troop] = plans[troop].map(get_upgrade_time)
+    
+    time[th_level] = plans.T.sum().to_dict()
+
+# %%
+time
+
+# %%
