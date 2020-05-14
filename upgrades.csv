@@ -1,0 +1,67 @@
+Troop,Category,TH 3,TH 4,TH 5,TH 6,TH 7,TH 8,TH 9,TH 10,TH 11,TH 12,TH 13
+Barbarian ,Level ,2, ,3, ,4,5,6,7,8,9,
+Barbarian ,Time ,6/24, ,1, ,2,3,4,5,8,12,
+Archer ,Level ,2, ,3, ,4,5,6,7,8, ,
+Archer ,Time ,12/24 , ,1, ,2,3,4,5,8, ,
+Giant ,Level , ,2, ,3,4,5,6,7,8,9,
+Giant ,Time , ,12/24 , ,1.5,2,3,5,6,10,14,
+Goblin ,Level ,2, ,3, ,4,5,6,7, ,8,
+Goblin ,Time ,12/24 , ,1.5, ,2,3,5,7, ,12,
+Wall Breaker ,Level , ,2, ,3,4,5, ,6,7,8,9
+Wall Breaker ,Time , ,12/24 , ,1.5,2,3, ,5,8,14,15
+Balloon ,Level , ,2, ,3,4,5,6, ,7,8,9
+Balloon ,Time , ,12/24 , ,1.5,2,3,5, ,10,14,16
+Wizard,Level , , ,2,3,4,5,6,7,8,9,
+Wizard,Time , , ,12/24 ,1.5,2,3,5,6,10,14,
+Healer ,Level , , , , ,2,3,4, ,5, ,6
+Healer ,Time , , , , ,2,3,5, ,14, ,15
+Dragon ,Level , , , , ,2,3,4,5,6,7,8
+Dragon ,Time , , , , ,4,5,6,7,10,14,16
+P.E.K.K.A ,Level , , , , , ,2 / 3 ,4,5 / 6 ,7,8,
+P.E.K.K.A ,Time , , , , , ,4 / 5 ,6,7 / 8 ,10,14,
+Baby Dragon ,Level , , , , , , ,2,3 / 4 ,5,6,
+Baby Dragon ,Time , , , , , , ,5,6 / 7 ,10,14,
+Miner ,Level , , , , , , , ,2 / 3 ,4 / 5 ,6,7
+Miner ,Time , , , , , , , ,5.5 / 6.5 ,8 / 11.5 ,14,15.5
+Electro Dragon ,Level , , , , , , , , ,2,3,4
+Electro Dragon ,Time , , , , , , , , ,10,14,16
+Yeti ,Level , , , , , , , , , ,2,3
+Yeti ,Time , , , , , , , , , ,14,16
+Lightning Spell ,Level ,2,3,4, , ,5,6,7, , ,
+Lightning Spell ,Time ,1,2,3, , ,4,6,10, , ,
+Healing Spell ,Level , ,2, ,3,4,5,6,7, , ,8
+Healing Spell ,Time , ,1, ,2,3,4,6,10, , ,16
+Rage Spell ,Level , , ,2,3,4,5, , , ,6,
+Rage Spell ,Time , , ,2,3,4,5, , , ,11.5,
+Jump Spell ,Level , , , , ,2, , ,3, , ,4
+Jump Spell ,Time , , , , ,4, , ,7, , ,15
+Freeze Spell ,Level , , , , , , ,2,3 / 4 / 5 ,6,7,
+Freeze Spell ,Time , , , , , , , ,3 / 4.5 / 6.5 / 8 ,9,11.5,
+Clone Spell ,Level , , , , , , , ,2 / 3 ,4 / 5 , ,
+Clone Spell ,Time , , , , , , , ,4 / 5 ,6.5 / 11.5 , ,
+Minion ,Level , ,,,,2,3 / 4 ,5,6,7,8,9
+Minion ,Time , , , , ,3,3.5 / 4 ,5.5,7.5,11.5,14,15.5
+Hog Rider ,Level , , , , ,2,3 / 4 ,5,6,7,8 / 9 ,10
+Hog Rider ,Time , , , , ,3.5,4 / 4.5 ,6,7.5,11.5,14 / 14 ,16
+Valkyrie ,Level , , , , , ,2,3 / 4 ,5,6,7,
+Valkyrie ,Time , , , , , ,4,5.5 / 6.5 ,8,11.5,14,16
+Golem ,Level , , , , , ,2,3 / 4 ,5,6 / 7 ,8 / 9 ,
+Golem ,Time , , , , , ,4,5.5 / 6.5 ,8,9.5 / 11.5 ,14 / 14 ,
+Witch,Level , , , , , , ,2,3,4,5,
+Witch,Time , , , , , , ,6,9,12,14,
+Lava Hound,Level , , , , , , ,2,3,4,5,
+Lava Hound,Time , , , , , , ,6.5,8,11.5,14,
+Bowler ,Level , , , , , , , ,2,3,4,5
+Bowler ,Time , , , , , , , ,8.5,12,14,16
+Ice Golem ,Level , , , , , , , , ,2 / 3 ,4 / 5 ,
+Ice Golem ,Time , , , , , , , , ,8 / 10 ,12 / 14 ,
+Poison Spell ,Level , , , , , ,2,3,4,5,6,7
+Poison Spell ,Time , , , , , ,2.5,4,6.5,9.5,11,15.5
+Earthquake Spell ,Level , , , , , ,2,3,4,5, ,
+Earthquake Spell ,Time , , , , , ,4,5,9,11, ,
+Haste Spell ,Level , , , , , , ,2,3 / 4 ,5, ,
+Haste Spell ,Time , , , , , , ,5,6.5 / 9 ,11, ,
+Skeleton Spell ,Level , , , , , , , ,2 / 3 ,4,5 / 6 ,7
+Skeleton Spell ,Time , , , , , , , ,5 / 6.5 ,8,9 / 11 ,15
+Bat Spell ,Level , , , , , , , ,2 / 3 ,4,5,
+Bat Spell ,Time , , , , , , , ,5 / 6.5 ,8,9, 
