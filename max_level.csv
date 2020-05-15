@@ -1,0 +1,34 @@
+Troop,TH 3,TH 4,TH 5,TH 6,TH 7,TH 8,TH 9,TH 10,TH 11,TH 12,TH 13
+Barbarian ,2, ,3, ,4,5,6,7,8,9,
+Archer ,2, ,3, ,4,5,6,7,8, ,
+Giant , ,2, ,3,4,5,6,7,8,9,
+Goblin ,2, ,3, ,4,5,6,7, ,8,
+Wall Breaker , ,2, ,3,4,5, ,6,7,8,9
+Balloon , ,2, ,3,4,5,6, ,7,8,9
+Wizard, , ,2,3,4,5,6,7,8,9,
+Healer , , , , ,2,3,4, ,5, ,6
+Dragon , , , , ,2,3,4,5,6,7,8
+P.E.K.K.A , , , , , ,3,4,6,7,8,
+Baby Dragon , , , , , , ,2,4,5,6,
+Miner , , , , , , , ,3,5,6,7
+Electro Dragon , , , , , , , , ,2,3,4
+Yeti , , , , , , , , , ,2,3
+Lightning Spell ,2,3,4, , ,5,6,7, , ,
+Healing Spell , ,2, ,3,4,5,6,7, , ,8
+Rage Spell , , ,2,3,4,5, , , ,6,
+Jump Spell , , , , ,2, , ,3, , ,4
+Freeze Spell , , , , , , ,2,5,6,7,
+Clone Spell , , , , , , , ,3,4, ,
+Minion , ,,,,2,4,5,6,7,8,9
+Hog Rider , , , , ,2,4,5,6,7,9,10
+Valkyrie , , , , , ,2,4,5,6,7,
+Golem , , , , , ,2,4,5,7,9,
+Witch, , , , , , ,2,3,4,5,
+Lava Hound, , , , , , ,2,3,4,5,
+Bowler , , , , , , , ,2,3,4,5
+Ice Golem , , , , , , , , ,3,5,
+Poison Spell , , , , , ,2,3,4,5,6,7
+Earthquake Spell , , , , , ,2,3,4,5, ,
+Haste Spell , , , , , , ,2,4,5, ,
+Skeleton Spell , , , , , , , ,3,4,5,7
+Bat Spell , , , , , , , ,3,4,5,
